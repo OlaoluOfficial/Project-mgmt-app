@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/mac/.volta/tools/image/node/16.13.2/bin/node /Users/mac/.volta/tools/image/yarn/1.22.17/bin/yarn.js add express express-graphlql graphql mongoose cors colors
+
+PATH: 
+  /Users/mac/.volta/tools/image/yarn/1.22.17/bin:/Users/mac/.volta/tools/image/node/16.13.2/bin:/Users/mac/.volta/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mac/.volta/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-graphlql: Not found
+      at Request.params.callback [as _callback] (/Users/mac/.volta/tools/image/yarn/1.22.17/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/mac/.volta/tools/image/yarn/1.22.17/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/mac/.volta/tools/image/yarn/1.22.17/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/mac/.volta/tools/image/yarn/1.22.17/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "project-mngt-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
